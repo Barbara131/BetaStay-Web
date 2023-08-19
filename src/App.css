@@ -1,0 +1,169 @@
+/* .app{
+    margin-bottom: 50px;
+} */
+.explore{
+    position: relative;
+    background-image: url('./assets/cover.png');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 604px;
+    margin-bottom: 200px;
+}
+.exploreContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #00000071;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.exploreContent h1{
+    font-size: 3rem;
+    margin: 10px;
+}
+.exploreContent p{
+    font-size: 1.2rem;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.btnExplore{
+    background-color: #ffffff00;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: 3px solid #FFFFFF;
+    font-size: 1.2rem;
+}
+.btnExplore:hover{
+    background-color: #FFFFFF;
+    color: #3D5AA9;
+}
+
+.houseNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.houseNav h1{
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+.houseNav input{
+    border-radius: 13.086px;
+    border:2px solid #0000003a;
+    background: #F9F9FC;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    font-size: 1.1rem;
+    
+}
+.houseNav input::placeholder{
+    color: #00000063;
+    font-family: 'Inter', sans-serif;
+}
+
+.houseNav .houseNavFilter{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #000000;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+.houseNavFilter p{
+    margin: 0;
+}
+.houseNavFilter:hover{
+    cursor: pointer;
+}
+.houseCards{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.moreHouse{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.moreHouse a{
+    color: #1a1c1e8a;
+    font-size: 1.3rem;
+}
+h1.videoImageHead{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+.videoImage{
+    margin : 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.videoImage:hover{
+    cursor: pointer;
+}
+.testimonials{
+    margin-top: 40px;
+}
+h1.testHeader{
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+.testNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+.testNav svg:hover{
+    cursor: pointer;
+}
+footer.appFooter{
+    background-color: #3D5AA9;
+    color: #FFFFFF;
+}
+
+.appFooterNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.appFooterNav .navBarBrand h1{
+    font-size: 2.3rem;
+}
+ul.footerNav{
+    list-style: none;
+}
+ul.footerNav li{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .exploreContent p{
+        width: 80%;
+    }
+    .videoImage img{
+        max-width:100%
+    }
+}

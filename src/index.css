@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Playfair+Display+SC&display=swap');
+*{
+  box-sizing: border-box;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+}
+body,p,button,input{
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3 {
+  font-family: 'Playfair Display SC', serif;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.btn{
+  outline: none;
+}
+.btn:hover{
+  cursor: pointer;
+}
